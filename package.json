@@ -1,0 +1,13 @@
+{
+  "name": "home-plts-v2",
+  "private": true,
+  "description": "Monitoring PLTS rumah v2 — MPPT, BMS 48 V dan meter beban via Modbus RTU",
+  "scripts": {
+    "setup": "npm --prefix apps/web install",
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm --prefix apps/web run build",
+    "start": "npm --prefix apps/web run start",
+    "lint": "npm --prefix apps/web run lint",
+    "typecheck": "npm --prefix apps/web run typecheck"
+  }
+}
